@@ -14,3 +14,7 @@ $screen-sm: 768px !default;
 		}
 	}
 }
+
+body{
+	@include bootstrap-center-navbar();
+}
