@@ -1,0 +1,14 @@
+@mixin bootstrap-center-navbar() { // Best to attach this to <body>
+	@media(min-width: $screen-sm){
+		.navbar{
+			.navbar-nav{
+				display: inline-block;
+				float: none;
+				vertical-align: top;
+			}
+			.navbar-collapse{
+				text-align: center;
+			}
+		}
+	}
+}
