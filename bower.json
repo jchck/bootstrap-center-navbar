@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-center-navbar",
+  "version": "1.0.0",
+  "homepage": "https://github.com/our-collective/bootstrap-center-navbar",
+  "authors": [
+    "jchck <hey@justinchick.com>"
+  ],
+  "description": "Simple SASS mixin to center Bootstrap's default navbar",
+  "main": "./src/bootstrap-center-navbar.scss",
+  "keywords": [
+    "SASS",
+    "bootstrap",
+    "CSS",
+    "mixin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
