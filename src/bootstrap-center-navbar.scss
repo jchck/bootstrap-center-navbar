@@ -1,3 +1,5 @@
+$screen-sm: 768px !default;
+
 @mixin bootstrap-center-navbar() { // Best to attach this to <body>
 	@media(min-width: $screen-sm){
 		.navbar{
