@@ -3,6 +3,7 @@ $screen-sm: 768px !default;
 @mixin bootstrap-center-navbar() { // Best to attach this to <body>
 	@media(min-width: $screen-sm){
 		.navbar{
+			text-align: center;
 			.navbar-nav{
 				display: inline-block;
 				float: none;
