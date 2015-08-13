@@ -6,7 +6,7 @@ var gulp 		= require('gulp'),
 
 gulp.task('css', function(){
 	gulp.src('./src/bootstrap-center-navbar.scss')
-		.pipe(sass({outputStyle: 'compact'}))
+		.pipe(sass({outputStyle: 'nested'}))
 		.pipe(size({gzip: true, showFiles: true, title:'prefixed'}))
 		.pipe(gulp.dest('./dest'))
 		.pipe(minify())
